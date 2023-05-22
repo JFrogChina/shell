@@ -1,0 +1,12 @@
+2023-01-20T02:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|4698244849|0|69826|curl/7.29.0
+2023-01-20T02:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|192212992|1|curl/7.29.0
+2023-01-20T03:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|6098244849|0|69826|curl/7.29.0
+2023-01-20T03:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|202212992|1|curl/7.29.0
+2023-01-20T04:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|7098244849|0|69826|curl/7.29.0
+2023-01-20T04:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|302212992|1|curl/7.29.0
+2023-01-21T02:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|4698244849|0|69826|curl/7.29.0
+2023-01-21T02:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|192212992|1|curl/7.29.0
+2023-01-22T03:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|6098244849|0|69826|curl/7.29.0
+2023-01-22T03:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|202212992|1|curl/7.29.0
+2023-01-23T04:12:14.289Z|995594fb10ad1e2f|10.x.x.2|some_user|PUT|/app1-generic-dev-local/my/path/myfile.bin|201|7098244849|0|69826|curl/7.29.0
+2023-01-23T04:11:32.669Z|22a62b73e665c110|10.x.x.1|some_user|HEAD|/app1-generic-dev-local/my/path/myfile.bin|200|-1|302212992|1|curl/7.29.0
