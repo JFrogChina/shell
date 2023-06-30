@@ -12,7 +12,9 @@ DROP TABLE IF EXISTS `jfrog_log`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `jfrog_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cluster_name` varchar(255) NOT NULL DEFAULT '' COMMENT '',
   `log_time` varchar(255) NOT NULL DEFAULT '' COMMENT 'e.g. 2023-06-17 23:00:00',
+  `log_ip` varchar(255) NOT NULL DEFAULT '' COMMENT '',  
   `put_count` BIGINT(11) NOT NULL DEFAULT '0' COMMENT '',
   `put_size` BIGINT(11) NOT NULL DEFAULT '0' COMMENT '',
   `get_count` BIGINT(11) NOT NULL DEFAULT '0' COMMENT '',
@@ -23,4 +25,4 @@ CREATE TABLE `jfrog_log` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 
-INSERT INTO `jfrog_log` VALUES (1,'2023-06-17 23:00:00', 2791, 56155441586, 7830, 121401422, '2018-02-01 00:00:00');
+INSERT INTO `jfrog_log` VALUES (1,'test_cluster', '2023-06-17 23:00:00', 'x.x.x.x', 2791, 56155441586, 7830, 121401422, '2018-02-01 00:00:00');
